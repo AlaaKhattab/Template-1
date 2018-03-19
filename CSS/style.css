@@ -1,0 +1,416 @@
+/************************************************************************/
+/************************************************************************/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f6f7f9;
+}
+
+
+/************************************************************************/
+/**************************  header  ************************************/
+#header{
+    height: 100px;
+    width: 100%;
+}
+
+#header img{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+#header nav{
+    float: left;
+    margin-top: 20px;
+}
+
+#header nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+}
+
+#header nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+
+#header nav ul li a:hover{
+    color: white;
+    background-color: #5d91fe;
+}
+
+
+#header form{
+    float: left;
+    margin-top: 30px;
+}
+
+#header form input{
+    width: 200px;
+    height: 40px;
+}
+
+/************************************************************************/
+/**************************  slide_show  ********************************/
+#slide_show{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: white;
+    padding-top: 20px;
+}
+#slide_show .slide{
+    width: 800px;
+    margin-left: 250px;
+}
+
+#slide_show h1{
+    font-family: cursive;
+    margin-top: 50px;
+}
+
+#slide_show p{
+    width: 800px;
+
+}
+
+#slide_show input{
+    background-color: #f58560;
+    color: white;
+    width: 220px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/************************************************************************/
+/**************************  services  **********************************/
+#services{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+#services h1{
+    background-color: #5d91fe;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: -30px;
+    padding-top: 10px;
+    margin-left: 550px;
+}
+
+#services #block{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+#services img{
+    width: 100px;
+    height: 100px;
+}
+
+#services h3{}
+
+#services p{
+    text-align: center;
+}
+
+#services p a{
+    color: #5d91fe;
+}
+
+#services .services_details{
+    float: left;
+    margin-right: 80px;
+    width: 220px;
+    padding: 5px;
+}
+
+/************************************************************************/
+/**************************  portfolio  *********************************/
+#portfolio{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #2e3e4e;
+    padding-top: 10px;
+}
+
+#port_content{
+    height: 500px;
+    width: 1000px;
+    margin-left: 150px;
+}
+
+#portfolio #portfolio_head{
+    margin-top: 30px;
+    display: block;
+    height: 100px;
+}
+#portfolio h1{
+    float: left;
+    color: #f58560;
+    display: inline;
+}
+#portfolio form{
+    float: right;
+    display: inline;
+}
+
+#portfolio form input{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #5d91fe;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+
+.Portfolio_block{
+    width: 300px;
+    float: left;
+}
+
+.Portfolio_block h3{
+    color: #f58560;
+}
+
+.Portfolio_block p{
+    color: white;
+}
+
+.Portfolio_block img{
+    width: 250px;
+    height: 200px;
+    border: 5px solid white;
+}
+
+
+/************************************************************************/
+/**************************  offer  *************************************/
+#offer{
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#offer .offer_block{
+    width: 250px;
+    float: left;
+}
+
+#offer h1 , #offer h3 {
+    color: #5d91fe;
+}
+
+#offer #par{
+    width: 1000px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#offer .offer_block p{
+    text-align: justify;
+}
+
+#offer form input{
+    background-color: #5d91fe;
+    color: white;
+    height: 35px;
+    width: 70px;
+    margin-left: 180px;
+    border-radius: 5px;
+}
+
+
+
+/************************************************************************/
+/**************************  test  **************************************/
+#test{
+    height: 330px;
+    width: 90%;
+    margin-left: 60px;
+    text-align: center;
+}
+
+
+#test h1{
+    color: #5d91fe;
+}
+
+#test p{
+    font-size: 20px;
+    width: 800px;
+    margin-left: 200px;
+}
+
+#test a img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+/************************************************************************/
+/**************************  footer  ************************************/
+#footer{
+    height: 450px;
+    width: 100%;
+    text-align: left;
+    background-color: #2e3e4e;
+}
+
+#footer h2{
+    color: #f58560;
+}
+
+#footer p{
+    color: white;
+}
+
+#footer a{
+    color: #5d91fe;
+}
+
+
+/**********************************************/
+#footer #bird_feeds{
+    width:300px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#footer #bird_feeds .bird_feeds_block{
+    height: 100px;
+}
+
+
+#footer #bird_feeds .bird_feeds_block p{
+    margin-bottom: 5px;
+}
+#footer #bird_feeds .bird_feeds_block a{
+    margin-bottom: -10px;
+}
+
+/**********************************************/
+
+#footer #newsletter{
+    width:300px;
+    float: left;
+    margin-right: 40px;
+}
+
+#footer #newsletter .newsletter_block{
+    height: 100px;
+}
+
+#footer #newsletter form{
+    margin-top: 15px;
+}
+
+#footer #newsletter label{
+    color: #5d91fe;
+}
+
+#footer #newsletter input{
+    border-radius: 5px;
+}
+
+#footer #newsletter input[type="email"]{
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#footer #newsletter input[type="button"]{
+    margin-top: 15px;
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: #5d91fe;
+    color: white;
+}
+
+
+/**********************************************/
+
+#footer #recent_projects{
+    width:340px;
+    float: left;
+    height: 400px;
+    margin-right: 40px;
+}
+
+
+#footer #recent_projects .recent_projects_block{
+    width: 340px;
+    height: 100px;
+}
+
+#recent_projects .recent_projects_block img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+#recent_projects .recent_projects_block .recent_projects_details{
+    float: left;
+    height: 80px;
+    margin-top: -10px;
+}
+
+#recent_projects .recent_projects_block .recent_projects_details p{
+    margin-bottom: 5px;
+}
+
+#recent_projects .recent_projects_block .recent_projects_details a{
+    margin-bottom: -10px;
+}
+
+
+/**********************************************/
+#footer #contact{
+    width:200px;
+    float: left;
+}
+
+#footer #contact .contact_block{
+    height: 100px;
+}
+
+
+#footer #contact .contact_block img{
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+
+#footer #contact .contact_block .contact_details{
+    float: left;
+}
+
+#footer #contact p{
+    width: 120px;
+    
+}
